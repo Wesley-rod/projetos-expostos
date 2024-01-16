@@ -10,7 +10,7 @@
     src: url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 }
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
@@ -29,7 +29,7 @@ header {
 }
 
 header h1 { 
-    font: normal bold 7em 'Passion One', sans-serif;
+    font: normal bold 10vh 'Passion One', sans-serif;
     padding-top: 50px;
     text-align: center;
     color: white;
@@ -37,7 +37,7 @@ header h1 {
 }
 
 #big {
-    font: normal bold 10rem 'Passion One', sans-serif;
+    font: normal bold 15vh 'Passion One', sans-serif;
 }
 
 header p {
@@ -66,7 +66,7 @@ section {
 
 .first p {
     font-family: 'Sriracha', cursive;
-    font-size: 3.5em;
+    font-size: 5vh;
     text-align: left;
     white-space: pre-line;
     line-height: 2em;
@@ -79,14 +79,15 @@ section {
 .sec p {
     font-family: 'Sriracha', cursive;
     background-color: rgba(22, 22, 22, 0.158);
-    max-width: 700px;
+    display: inline-block;
     padding: 10px;
     color: white;
-    font-size: 3.5em;
+    font-size: 5vh;
     text-align: left;
     white-space: pre-line;
+    padding-left: 50px;
     padding-top: 0px;
-    padding-bottom: 60px;
+    padding-bottom: 2em;
     line-height: 2em;
 }
 
@@ -100,7 +101,7 @@ section {
 
 .tf p {
     font-family: 'Sriracha', cursive;
-    font-size: 3.5em;
+    font-size: 5vh;
     text-align: left;
     white-space: pre-line;
     line-height: 2em;
@@ -108,14 +109,15 @@ section {
 
 .five p#escuro {
     font-family: 'Sriracha', cursive;
-    font-size: 3.5em;
+    font-size: 5vh;
     background-color: rgba(22, 22, 22, 0.158);
-    max-width: 700px;
+    display: inline-block;
     color: white;
     text-align: left;
     white-space: pre-line;
     padding-top: 0px;
-    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-bottom: 2em;
     line-height: 2em;
 }
 
@@ -130,7 +132,7 @@ section {
 
 .ss p {
         font-family: 'Sriracha', cursive;
-        font-size: 3.5em;
+        font-size: 5vh;
         text-align: left;
         white-space: pre-line;
         line-height: 2em;
@@ -144,5 +146,5 @@ footer {
     text-align: center;
     text-decoration: none;
     color: white;
-    font: normal normal 1.5em 'Passion One', sans-serif;
+    font: normal normal 2.5vh 'Passion One', sans-serif;
 }
