@@ -78,7 +78,7 @@ section {
 
 .sec p {
     font-family: 'Sriracha', cursive;
-    background-color: rgba(22, 22, 22, 0.158);
+    background-color: rgba(22, 22, 22, 0.349);
     display: inline-block;
     padding: 10px;
     color: white;
@@ -89,6 +89,7 @@ section {
     padding-top: 0px;
     padding-bottom: 2em;
     line-height: 2em;
+    text-shadow: 2px 2px 0px black;
 }
 
 #img01 {
@@ -110,7 +111,8 @@ section {
 .five p#escuro {
     font-family: 'Sriracha', cursive;
     font-size: 5vh;
-    background-color: rgba(22, 22, 22, 0.158);
+    background-color: rgba(22, 22, 22, 0.349);
+    text-shadow: 2px 2px 0px black;
     display: inline-block;
     color: white;
     text-align: left;
