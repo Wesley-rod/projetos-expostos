@@ -24,8 +24,8 @@ main {
 }
 
 #phone {
-    height: 627px;
-    width: 311px;
+    height: 628px;
+    width: 312px;
     background-color: blue;
     position: absolute;
     top: 50%;
@@ -40,4 +40,24 @@ main {
     left: 22px;
     width: 269px;
     height: 471px;
+}
+
+#social-media {
+    text-align: right;
+}
+
+#social-media img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.61);
+    box-sizing: border-box;
+
+}
+
+#social-media img:hover {
+    border: 3px solid rgba(255, 255, 255, 0.445);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.075);
+    transition: transform 1.3s, border 1.3s;
+    transform: rotate(360deg);
 }
