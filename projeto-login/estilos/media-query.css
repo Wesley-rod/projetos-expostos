@@ -6,10 +6,11 @@ Tablet: de 769 px até 992px
 Desktop: de 992px até 1200px
 Grandes telas: acima de 1200px */
 
-@media screen and(min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
 
     section#login {
         width: 80vw;
+        height: 280px;
     }
 
     section#login .imagem {
@@ -37,6 +38,7 @@ Grandes telas: acima de 1200px */
 
     section#login {
         width: 950px;
+        height: 320px;
     }
 
     section#login .imagem {
@@ -58,5 +60,6 @@ Grandes telas: acima de 1200px */
 
     .formulario p {
         font-size: 1.2em;
+        margin: 10px 0px;
     }
 }
