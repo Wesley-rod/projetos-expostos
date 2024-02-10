@@ -1,0 +1,9 @@
+@charset 'UTF-8';
+
+* {
+    padding: 0px;
+}
+
+#glass {
+    height: 190px;
+}
