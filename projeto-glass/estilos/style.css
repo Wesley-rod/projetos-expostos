@@ -27,7 +27,33 @@ header#cabecalho #glass {
     top: 50px;
 }
 
-#cabecalho
+#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 200px;
+    background: url('../imagens/Google_Glass_logo.png') no-repeat 0px 100px;
+}
+
+#cabecalho h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.9em;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+#cabecalho h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #888888;
+    font-size: 1.4em;
+    font-weight: 300;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+hgroup {
+    margin-top: 10px;
+}
 
 span {
     font-weight: 900;
@@ -86,7 +112,7 @@ figure p {
     text-transform: uppercase;
     position: absolute;
     top: -15px;
-    right: 500px;
+    right: 300px;
 }
 
 #menu li {
@@ -115,4 +141,49 @@ figure p {
 
 #menu a:hover {
     color: white;
+}
+
+section#corpo {
+    display: block;
+    width: 520px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 40px;
+}
+
+aside#lateral {
+    display: block;
+    width: 400px;
+    float: right;
+}
+
+footer {
+    clear: both;
+    border-top: 1px solid #606060;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-right: 4px solid;
+    width: 8ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(8), blinking 0.7s infinite step-end alternate;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blinking {
+    50% {
+        border-color: transparent;
+    }
 }
